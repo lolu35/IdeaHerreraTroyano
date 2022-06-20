@@ -1,0 +1,449 @@
+/* Comun*/
+\*{
+    margin:0;
+    padding: 0;
+}
+@media screen and (max-width:500px ) {
+.encabezado {
+    width: 100%;
+    height: 70px;
+    top:0;
+    align-content:center;
+    position: absolute;
+    display: flex;
+
+}
+#fondo{
+    display: flex;
+    margin-left: 150px;
+    align-content: center;
+}
+.padre {
+    width: 100%;
+    height: 70px;
+    top: 70px;
+    margin-right: 100px;
+    position: relative;
+}
+
+
+.fieldset-consulta {
+    position: absolute;
+
+
+}
+.combinado{
+    display:flex;
+    transform: scale(200px);
+    scale: 50px;
+    overflow: hidden;
+    transform:translate(30px,350px)}
+
+   
+}
+/* animaciones */
+@keyframes mujer_balanza {
+    0%{opacity: 0;}
+    25%{opacity: 0,3;}
+    50%{opacity: 0,5;}
+    75%{opacity: 0,7;}
+    100%{opacity: 1;}
+}
+
+#fondo{    
+    
+    display: grid;
+    grid-template-columns: 1fr 0.7fr;
+    grid-template-rows: 0.1fr 0.01fr;
+    grid-template-areas: 
+    "encabezado encabezado"
+    "barra           barra"
+    "combinado   combinado"
+    ;
+
+    column-gap: 20px;
+    row-gap: 20px;
+    background-image: linear-gradient(to right, black, rgb(73, 69, 69));
+       display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+
+}
+
+
+.combinado{
+  display: grid;
+    grid-area: combinado;
+    top: -4px;
+    width: 1266px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.img{
+  animation-name: mujer_balanza;
+  animation-duration: 5s;
+  animation-iteration-count:calc(1)
+}
+
+
+
+.encabezado{
+    display: grid;
+    grid-area: encabezado;
+    width: 1300px;
+    
+    
+}
+
+
+h1 {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+
+background-image: -webkit-linear-gradient(right,  rgb(133, 20, 20), rgb(233, 45, 45));
+text-align: center;
+color: rgb(250, 235, 193);
+font-family: 'Manrope', sans-serif;
+text-shadow: 0 1px 0 rgb(8, 8, 8);
+}
+
+
+
+.padre {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+
+
+.lista {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    background-image: -webkit-linear-gradient(right,  rgb(133, 20, 20), rgb(233, 45, 45));
+    margin: 18px;
+    padding: 10px 42px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+#navegacion  .letra-titulo{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    transition: all 1s;
+    transform: translate(0px , 0px);
+
+    color: rgb(255, 235, 193);
+    text-shadow:  1px 0 rgb(8, 8, 8)
+
+}
+#navegacion .letra-titulo:hover {
+    transform: translate(3px , 2px);
+    color: rgb(133, 20, 20);
+    text-shadow: 0 1px 0 rgb(8, 8, 8)
+}
+
+/* Inicio*/
+.contenedor {
+    display: flex;
+    position: absolute;
+    opacity: 1;
+    
+}
+.img{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    margin-left: 5px;
+    opacity: 1;
+}
+.texto-encima {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    color: antiquewhite;
+    text-align: justify;
+    justify-content: center;
+    margin-right: 45PX;
+    margin-left: 45PX;
+    margin-top: 50px;
+    font-family: 'Manrope', sans-serif;
+    color: rgb(250, 235, 193);
+    text-shadow: 0 1px 0 rgb(8, 8, 8)
+
+}
+
+
+
+/* Footer */
+.texto-footer {
+    display: inline;
+    text-align: left;  
+    padding-left: 20px;
+    
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+
+    background-color: rgb(36, 33, 33);
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    width: 150%;
+    height: 40px;
+    color: white;
+      
+  }
+  .pie{
+      display: inline-table;
+      padding: 10px;
+  
+}
+  .imagenes-de-pie{
+      border-radius: 7px;
+}
+
+
+.h4-especializacion {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+
+
+    color: antiquewhite;
+    font-family: 'Manrope', sans-serif;
+    padding-left: 50px;
+    padding-right: 100px;
+    padding-bottom: 65px;
+    vertical-align: top;
+    text-align: justify;
+}
+/* Grupo*/
+.imagen-Es {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+
+    display: block;
+    float: left;
+    padding-left: 50px;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px;
+
+    animation-name: mujer_balanza;
+  animation-duration: 5s;
+  animation-iteration-count:calc(1)
+
+}
+
+.fieldsets { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+
+
+}
+
+.imagen-grup{ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+    animation-name: mujer_balanza;
+  animation-duration: 5s;
+  animation-iteration-count:calc(1)
+}
+ 
+.titulo-grupo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items: center;
+    color: rgb(250, 235, 193);
+    font-family: 'Manrope', sans-serif;
+    text-shadow: 0 1px 0 rgb(8, 8, 8);
+}   
+
+.titulo-grupo2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-right:800px;
+
+
+    color: rgb(250, 235, 193);
+    font-family: 'Manrope', sans-serif;
+    text-shadow: 0 1px 0 rgb(8, 8, 8);
+}
+
+#descripcion-grupo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+
+    color: antiquewhite;
+    font-family: 'Manrope', sans-serif;
+    vertical-align: top;
+    text-align: justify;
+    margin: 50px;
+}
+
+/* Consulta*/
+.fieldset-consulta {    
+    display: flex;
+    flex-direction:column;
+    max-width:300px;
+    transform: translate(10px,20px);
+    
+}
+.formulario-1 {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    justify-content: center;
+   
+    color: antiquewhite;
+    font-family: 'Manrope', sans-serif;
+    vertical-align: top;
+    text-align: justify;
+    margin-right: 100px ;
+}
+
+
+.opciones {
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    margin-right: 800px;
+
+    color: black;
+    font-family: 'Manrope', sans-serif;
+}
+.boton {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    margin-bottom: 40px;
+    background-image: -webkit-linear-gradient(right,  rgb(133, 20, 20), rgb(228, 27, 27));
+}
+.consultas-2 {    
+    display: flex;
+    flex-wrap:wrap;
+
+    width: 150px;
+    height: 70px;
+}
+/* Contacto */
+#navegacion .lista-2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    background-image: -webkit-linear-gradient(right,  rgb(133, 20, 20), rgb(233, 45, 45));
+    margin: 18px;
+    padding: 10px 42px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+}
+#navegacion .letra-titulo-2 {
+
+    color: rgb(255, 235, 193);
+    text-shadow:  1px 0 rgb(8, 8, 8);
+    transition: all 1s;
+    transform: translate(0px , 0px);
+}
+#navegacion .letra-titulo-2:hover {
+    transform: translate(3px , 2px);
+
+    color: rgb(133, 20, 20);
+    text-shadow: 0 1px 0 rgb(8, 8, 8)
+}
+#Nombre{
+    display: flex;
+    margin-right: 700px;
+}
+#Email {
+    display:flex ;
+    margin-right: 700px;
+}
+
+#Telefono {
+    display: flex;
+    margin-right: 900px;
+}
+.imagenpadre{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.contacto-imagen {
+    position: absolute;
+    opacity: 1;
+    overflow: hidden;
+        width: 1183px; 
+        height: 370px; 
+        overflow: hidden;
+        animation-name: mujer_balanza;
+  animation-duration: 5s;
+  animation-iteration-count:calc(1)
+}
+.contacto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+
+    background-color: rgb(133, 20, 20);
+    text-align: center;
+    color: rgb(250, 235, 193);
+    font-family: 'Manrope', sans-serif;
+    text-shadow: 0 1px 0 rgb(8, 8, 8);
+    font-size: 29px;
+   
+}
+.formulario-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+
+    position: relative;
+    text-align: justify;
+    margin-right: 45PX;
+    margin-left: 30PX;
+    font-family: 'Manrope', sans-serif;
+    color: rgb(34, 33, 32);
+}
+

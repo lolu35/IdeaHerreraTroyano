@@ -1,0 +1,189 @@
+/* Comun*/
+#fondo{
+    background-color: rgb(26, 24, 24);
+}
+h1 {
+background-color: rgb(133, 20, 20);
+text-align: center;
+color: rgb(250, 235, 193);
+font-family: 'Manrope', sans-serif;
+text-shadow: 0 1px 0 rgb(8, 8, 8);
+}
+
+#navegacion .lista {
+    display: inline;
+    background-color: rgb(99, 104, 104);
+    margin: 20px;
+    padding: 10px 70px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+}
+#navegacion  .letratitulo{
+    color: rgb(255, 235, 193);
+    text-shadow:  1px 0 rgb(8, 8, 8)
+}
+#navegacion .letratitulo:hover {
+    color: rgb(133, 20, 20);
+    text-shadow: 0 1px 0 rgb(8, 8, 8)
+}
+
+/* Inicio*/
+.contenedor {
+    position: absolute;
+    margin-top: 16px;
+    margin-left: 18px;
+    opacity: 1;
+    overflow: hidden;
+        width: 1300px; 
+        height: 400px; 
+        overflow: hidden;
+}
+.texto-encima {
+    color: antiquewhite;
+    position: relative;
+    text-align: justify;
+    margin-right: 45PX;
+    margin-left: 45PX;
+    margin-top: 200px;
+    font-family: 'Manrope', sans-serif;
+    color: rgb(250, 235, 193);
+    text-shadow: 0 1px 0 rgb(8, 8, 8)
+
+}
+
+
+/* Footer */
+.textofooter {
+    display: inline;
+    text-align: left;  
+    padding-left: 20px;
+    
+}
+.footer {
+    background-color: rgb(36, 33, 33);
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    width: 150%;
+    height: 55px;
+    color: white;
+      
+  }
+  .pie{
+      display: inline-table;
+      padding: 10px;
+  
+}
+  .imagenesdepie{
+      border-radius: 7px;
+}
+
+
+.h4especializacion {
+    color: antiquewhite;
+    font-family: 'Manrope', sans-serif;
+    padding-left: 280px;
+    padding-right: 100px;
+    padding-bottom: 65px;
+    vertical-align: top;
+    text-align: justify;
+}
+/* Grupo*/
+.imagenEs {
+    display: block;
+    float: left;
+    padding-left: 95px;
+}
+
+.fieldset { 
+    width:1100px ;
+    margin-left: 65px;
+    padding-left: 100px;
+}
+.imagengrup {
+    margin-left: 355px;
+}
+ 
+.titulogrupo {
+    text-align: center;
+    color: rgb(250, 235, 193);
+    font-family: 'Manrope', sans-serif;
+    text-shadow: 0 1px 0 rgb(8, 8, 8);
+}   
+
+#descripciongrupo {
+
+    color: antiquewhite;
+    font-family: 'Manrope', sans-serif;
+    vertical-align: top;
+    text-align: justify;
+    margin-right: 100px ;
+}
+
+/* Consulta*/
+.fieldsetconsulta {
+ width: 850px;
+ height: 421px;
+}
+.formulario1 {
+    color: antiquewhite;
+    font-family: 'Manrope', sans-serif;
+    vertical-align: top;
+    text-align: justify;
+    margin-right: 100px ;
+}
+.opciones {
+    color: black;
+    font-family: 'Manrope', sans-serif;
+}
+.boton {
+    background-image: -webkit-linear-gradient(top,  rgb(133, 20, 20), antiquewhite);
+}
+.consultas2 {
+    width: 150px;
+    height: 70px;
+}
+/* Contacto */
+#navegacion .lista2{
+    display: inline;
+    background-color: rgb(99, 104, 104);
+    margin: 20px;
+    padding: 9px 58px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+}
+#navegacion .letratitulo2 {
+    color: rgb(255, 235, 193);
+    text-shadow:  1px 0 rgb(8, 8, 8);
+}
+#navegacion .letratitulo2:hover {
+    color: rgb(133, 20, 20);
+    text-shadow: 0 1px 0 rgb(8, 8, 8)
+}
+.contactoimagen {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 20px;
+    opacity: 1;
+    overflow: hidden;
+        width: 1183px; 
+        height: 370px; 
+        overflow: hidden;
+}
+.contacto {
+    background-color: rgb(133, 20, 20);
+    text-align: center;
+    color: rgb(250, 235, 193);
+    font-family: 'Manrope', sans-serif;
+    text-shadow: 0 1px 0 rgb(8, 8, 8);
+    font-size: 29px;
+   
+}
+.formulario2 {
+    position: relative;
+    text-align: justify;
+    margin-right: 45PX;
+    margin-left: 30PX;
+    font-family: 'Manrope', sans-serif;
+    color: rgb(34, 33, 32);
+}
